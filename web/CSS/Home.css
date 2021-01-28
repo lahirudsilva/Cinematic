@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2021, 3:05:25 AM
+    Author     : Lahiru De silva 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #222b31;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+h1{
+    font-family: 'Cherry Swash';;
+    color:#fff;
+}
+.wrapper-left {
+    display: flex;
+    position: relative;
+}
+.wrapper-left .sidebar-left {
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    background-color: #191c1f   ;
+}
+.grid-sidebar {
+    display: fixed;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+
+tab{
+    margin-bottom: 5px;
+     display: fixed;
+     padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.bg-active{
+    background-color: #222b31;
+    font-weight:bold;
+}
+
+.logo{
+    width: 240px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: -7px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-bottom: 7px;
+    background-color: #f83745;
+}
+
+@media(min-width: 1025px){
+    .top-navbar-mobile{
+        display: none;
+    }
+    .top-navbar {
+        background-color: #ff424f;
+    }
+    .top-navbar {
+        padding: 10px;
+    }
+    .fixed-top-navbar {
+        position: fixed;
+        right: 0;
+        bottom: 1; /* Para que este arriba */
+        top: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+
+
+    .grid-nav-top {
+        display: grid;
+        grid-template-columns: 24% auto auto;
+    }
+}
+
+.box-search {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 40px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.box-search button{
+    padding: 1px 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 6px;
+    background: transparent;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.box-search i {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.box-search input {
+    background: none;
+    margin-left: 10px;
+    border: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+}
+
+.logout{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    
+    
+}
+
+.uname{
+    position: absolute;
+    top: 10%;
+    left: 86%;
+    color: white;
+}
+
+
+/* NAVBAR FOOTER */
+
+.navbar-zoom {
+    background-color: #212121;
+    font-size: 12px;
+}
+.navbar-zoom {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.grid-navigation {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.title-navegacion-active {
+    display: block;
+    text-align: center;
+}
+.title-navegacion {
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 1025px) {
+    .wrapper-left {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .navbar-zoom {
+        display: none;
+    }
+}

@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2021, 2:15:27 AM
+    Author     : Lahiru De silva 
+*/
+
+body {
+    background-color: #191c1f;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Cherry Swash';;
+    color:#ff4350;
+    font-size: 45px;
+}
+
+.main {
+    width: 500px;
+    height: 750px;
+    margin: 4em auto;
+    background-color: #222b31;
+    border-radius: 20px;
+    padding-top: 18.344px;
+    padding-bottom: 6%;
+    margin-top: 3%;
+    box-shadow: 0px 11px 14px 1px rgba(0, 0, 0, 0.08);
+    font-family: 'Lato', sans-serif;
+}
+
+.su {
+    color: #fff;
+    margin-bottom: 10%;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.first {
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.mail {
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.pass1 {
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.pass2 {
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.cal {
+    width: 80%;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.Phno{
+    width: 80%;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.submit {
+    border-radius: 5em;
+    color: #fff;
+    background: #ff4350;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 4%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    font-family: 'Lato', sans-serif;
+}
+
+.login{
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #fff;
+    padding-top: 25px;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #fff;
+    text-decoration: none
+}
+
+.first:focus,
+.mail:focus,
+.pass1:focus,
+.pass2:focus,
+.cal:focus,
+.Phno:focus {
+    border: 2px solid hsl(356, 100%, 63%);
+    background-color: white;
+    outline: 0;
+}
+
+.submit:hover {
+    box-shadow: 0 0 13px 1px rgba(167, 43, 188, 0.35);
+    cursor: pointer;
+}
+
+.submit:active {
+    box-shadow: none;
+}
+
+textarea:focus,
+input:focus {
+    color: #ff4350;
+}
+
+a {
+    color: #ff4350;
+    font-style: normal;
+    text-decoration: none;
+}
+
+

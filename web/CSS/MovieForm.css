@@ -1,0 +1,290 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 18, 2021, 3:03:21 AM
+    Author     : Lahiru De silva 
+*/
+
+body {
+/*    background-color: #191c1f;*/
+background-image:  url(../images/cinema.jpg);
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Cherry Swash';;
+    color:#ff4350;
+    font-size: 45px;
+}
+
+.main {
+    width: 700px;
+    height: 850px;
+    margin: 4em auto;
+    background-color: #222b31;
+    border-radius: 20px;
+    padding-top: 18.344px;
+    padding-bottom: 6%;
+    margin-top: 3%;
+    box-shadow: 0px 11px 14px 1px rgba(0, 0, 0, 0.08);
+    font-family: 'Lato', sans-serif;
+}
+
+.su {
+    color: #fff;
+    margin-bottom: 10%;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.first {
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+select{
+    
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+option{
+    color: black;
+}
+
+.cal {
+    width: 59%;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.time{
+    width: 20%;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 24px 55px;
+}
+
+.form-row .name {
+    width: 188px;
+    color: coral;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 11px;
+}
+
+.form-row .value {
+    width: -webkit-calc(100% - 188px);
+    width: -moz-calc(100% - 188px);
+    width: calc(100% - 188px);
+}
+
+@media (max-width: 767px) {
+    .form-row {
+        display: block;
+        padding: 24px 30px;
+    }
+    .form-row .name,
+    .form-row .value {
+        display: block;
+        width: 100%;
+    }
+    .form-row .name {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+}
+
+.input-group {
+    position: relative;
+    margin: 0;
+}
+
+.input-file {
+    display: none;
+}
+
+.input-file + label {
+    font-size: 15px;
+    color: #fff;
+    color: white;
+    line-height: 40px;
+    background-color: #666666;
+    padding: 0 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 15px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.input-file:focus + label,
+.input-file + label:hover {
+    background: #1b1b1b;
+}
+
+.input-file__info {
+    font-size: 15px;
+    color: #666;
+}
+
+@media (max-width: 767px) {
+    .input-file__info {
+        display: block;
+        margin-top: 6px;
+    }
+}
+
+.label--desc {
+    font-size: 13px;
+    color: #999;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+    .label--desc {
+        margin-top: 14px;
+    }
+}
+
+
+
+.preview{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top: 95%;
+    left: 75%;
+    transform: translate(-50%, -60%);
+    border-radius: 5px;
+}
+#previewPhoto{
+
+    
+    width: 100%; 
+
+}
+
+a {
+    color: #ff4350;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.login{
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #fff;
+    padding-top: 25px;
+}
+
+.submit {
+    border-radius: 5em;
+    color: #fff;
+    background: #ff4350;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 15%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    border-radius: 5em;
+    color: #fff;
+    background: gray;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20%;
+    margin-right: 40%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    align-self: center;
+}
+
+.home{
+    margin-top: 5%;
+    margin-left: 13%;
+}

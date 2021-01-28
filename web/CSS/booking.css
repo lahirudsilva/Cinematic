@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 24, 2021, 2:09:11 AM
+    Author     : Lahiru De silva 
+*/
+
+
+
+
+
+
+body {
+    background-color: #191c1f;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Cherry Swash';;
+    color:#ff4350;
+    font-size: 45px;
+}
+
+.main {
+    width: 700px;
+    height: 700px;
+    margin: 4em auto;
+    background-color: #222b31;
+    border-radius: 20px;
+    padding-top: 18.344px;
+    padding-bottom: 6%;
+    margin-top: 3%;
+    box-shadow: 0px 11px 14px 1px rgba(0, 0, 0, 0.08);
+    font-family: 'Lato', sans-serif;
+}
+
+.info{
+    width: 40%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.image {
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 315px;
+    height: auto;
+    
+    float: left;
+    
+}
+
+.button{
+    border-radius: 5em;
+    color: #fff;
+    background: #ff4350;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    font-family: 'Lato', sans-serif;
+    align-self: center ;
+}
+
+a{
+    border-radius: 5em;
+    color: #fff;
+    background: gray;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20%;
+    margin-bottom: 4%;
+    margin-right: 61%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    align-self: center;
+}
+
+.cal{
+    width: 40%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Lato', sans-serif;
+}

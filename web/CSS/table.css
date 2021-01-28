@@ -1,0 +1,239 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2021, 1:48:27 AM
+    Author     : Lahiru De silva 
+*/
+
+
+.search{
+    margin-top: 75px;
+}
+
+.status{
+    position: relative;
+    width: 150px;
+    margin-left: -100px;
+}
+
+select{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    background: #fff;
+    height: 40px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.in{
+    background-color: #FF4D58;
+}
+
+option{
+     padding: 30px; 
+}
+
+.btn {
+     cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: #FF4D58;
+    border: 0;
+    margin-top: 2.5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+   
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.btn:hover, .btn:focus {
+    color: black;
+    outline: 0;
+}
+
+.filter{
+    margin-top: 1.5%;
+     margin-left: 30%;
+}
+
+
+
+
+h2{
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: white;
+    padding: 20px 0 0 0;
+}
+
+/* Table Styles */
+
+table {
+    margin-top: 20px;
+    border: none;
+    border-collapse: collapse;
+    white-space: nowrap;
+    background-color: white;
+	border-radius: 15px;
+	margin: 90px auto 90px auto;
+	width: 70%;
+}
+tr td  {
+	padding: 3px 12px;
+}
+td {
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+    font-size: 0.9em;
+	color: black;
+}
+th {
+    color: #ffffff;
+    background: #191c1f;
+    font-size: 1.313em;
+	padding: 8px;
+}
+tr:last-child td {
+	border-bottom: none;
+}
+td:last-child  {
+	border-right: none;
+}
+th:last-child {
+	border-top-right-radius: 12px;
+}
+th:first-child {
+	border-top-left-radius: 12px;
+}
+table br {
+	content: "";
+	margin: -0.5em;
+	display: block;
+}
+input.order-button {
+	color: #fff;
+	background-color: #00A6FB;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	margin: 10px auto;
+	letter-spacing: 1px;
+	font-size: 1.125em;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+    appearance: none;
+}
+input.table-wrapper:hover {
+	background-color: #00527a;
+}
+input.table-wrapper:focus {
+	outline: none;
+	background-color: #00527a;
+}
+tr:hover {
+	background-color: #efeeee;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    th:last-child {
+	border-top-right-radius: 0;
+}
+th:first-child {
+	border-top-left-radius: 0;
+}
+td strong {
+	white-space: normal;
+	display: block;
+	line-height: 15px;
+	margin-bottom: 10px;
+}
+table tr {
+    font-size: 0.9em;
+    height: auto !important;
+}
+.table-wrapper-sticky tr:first-child td {
+    box-shadow: none;
+}
+table {
+    border-radius: 0;
+}
+.table-wrapper-sticky {
+    overflow-x: scroll;
+    font-size: 0.9em;
+}
+.first-row {
+	position: sticky;
+    z-index: 13;
+    white-space: normal;
+    background-color: #efeeee;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    clip-path: inset(0 -5px -5px -5px);
+    min-width: 160px !important;
+    left: 0;
+    top: 0;
+  }
+.first-header {
+	background-color: #00a6fb;
+}
+}
+
+.linkButton{
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #ff4350;
+    padding: 5px 5px;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.linkButton:hover{
+    opacity: 0.7;
+}
+
+
+
+input, input[type=submit] {
+  background-color: #ff4350;
+  border: none;
+  color: white;
+  padding: 16px 25px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.subbutton{
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
