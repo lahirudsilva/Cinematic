@@ -1,3 +1,5 @@
+`All rights for the source code and other related material are reserved`
+
 # Cinematic
 Online movie ticket booking web application using Java Servlets and design patterns
 
